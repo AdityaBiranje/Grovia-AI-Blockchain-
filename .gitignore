@@ -1,0 +1,42 @@
+# Environment files
+.env
+backend/.env
+frontend/.env
+ml/.env
+
+# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+venv_ml/
+
+# Hardhat artifacts
+artifacts/
+cache/
+typechain/
+build/
+
+# Vite / React build
+frontend/dist/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Local DB
+*.db
+
+# IPFS temp
+.ipfs/
+
+# Secrets / keys
+private_key.txt
+*.pem
+*.key
